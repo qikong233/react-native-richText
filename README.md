@@ -1,6 +1,19 @@
 # react-native-richText
 to solve emoji text in react-native
 
+### How to use
+```javascript
+import RichText from './richText';
+import { defaultEmoticonReflection } from 'emoticonReflection';
+render() {
+  return (
+    <View>
+      <RichText fontSize={17} emojiSize={17} emojiReflection={} >haha [smile]</RichText>
+    </View>
+  );
+}
+```
+
 ### Props
 |parameter|type|required|description|default|
 |:---|:---|:---|:---|:---|
