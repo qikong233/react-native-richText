@@ -8,7 +8,7 @@ import { defaultEmoticonReflection } from 'emoticonReflection';
 render() {
   return (
     <View>
-      <RichText fontSize={17} emojiSize={17} emojiReflection={} >haha [smile]</RichText>
+      <RichText fontSize={17} emojiSize={17} emojiReflection={defaultEmoticonReflection} >haha [smile]</RichText>
     </View>
   );
 }
